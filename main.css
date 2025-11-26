@@ -1,0 +1,316 @@
+body{
+  background-color: #4c0507;
+/*background: linear-gradient(260.75deg, rgba(76, 5, 7, 0.2) 29.13%, rgba(148, 42, 41, 0.2) 107.19%);*/
+
+}
+.body{
+  /*background: linear-gradient(260.75deg, rgba(76, 5, 7, 0.2) 29.13%, rgba(148, 42, 41, 0.2) 107.19%);*/
+
+  content: fill ;
+}
+
+.navbar ul{
+  list-style-type: none ;
+ background-color: #4c0507;
+  padding: 0;
+  overflow: hidden;
+  width : 50%;
+  margin-top : 0;
+  margin-bottom :0;
+  margin-right: 25% ;
+  margin-left : 25%;
+   
+}
+.navbar a {
+  color: white;
+  font-family : "Anta" ;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-size: 30px ;
+}
+.navbar a:hover {
+background-color: #420507;
+}
+.navbar li{
+  float:left;
+
+}
+.nav{
+/*background-color: azure;*/
+
+width :  100%  ;
+margin-top: 0%;
+
+}
+.lis{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+ margin-left: 15%;
+ margin-right: 30%;
+ width : 1150px
+  
+}
+
+
+
+.img {
+  background-color: black;
+  margin-left: 85%;
+  margin-top: 0;
+}
+.first{
+
+  display: flex;
+  margin-top: 30px;
+
+}
+.title{
+  font-size: 64px;
+  font-family: "Anta";
+}
+.intro{
+  font-size : 36px ;
+  font-family: "Anta";
+   
+}
+.hp{
+  display : flex;
+  margin-left: 0;
+
+}
+.head{
+  margin-top: 100px;
+  text-align : center;
+    color: white;
+    
+
+}
+.intro{
+  margin-top: 150px;
+}
+
+.register{
+  width :  294px;
+  height: 79px ;
+  font-family: "anta";
+  font-size: 36px ;
+  background-color: #c04627 ;
+  border:transparent ;
+  border-radius: 10px ;
+  color:white;
+  margin-left : 700px ;
+  margin-top: 100px;
+}
+.second{
+  height: 686px;
+  display : grid;
+  grid-template-columns: 65% 35%;
+
+  grid-template-areas: "about arrow";
+}
+.arrow {
+height : 686px;
+width: 593px;
+
+}
+.about{
+  padding-top: 40px;
+  height : 686px;
+  font-family: "anta";
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+
+}
+.about-1{
+ 
+  font-size: 64px;
+}
+
+.about-2{
+  padding-top: 60px;
+  font-size: 40px ;
+  text-align-last: left;
+
+}
+.third{
+  padding-top: 70px;
+  height : 250px;
+  font-family: "anta";
+  text-align: center;
+  box-sizing: border-box;
+  color:white;
+
+
+}
+.theme{
+  font-size: 64px;
+  margin-bottom: 0;
+}
+.slogan{
+margin-top: 0;
+  padding-left: 600px;
+  font-size: 32px ;
+  font-style: normal;
+}
+.fourth{
+  margin-right: 5%;
+    margin-left: 5%;
+  height: 1005px;
+  background-image: url(seekb.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display : grid;
+  grid-template-columns:  30% 30% 30% ;
+  column-gap: 5.8% ;
+  grid-template-areas: " track1 track2 track3";
+ 
+}
+
+.track1{
+  margin-top: 20%;
+  height : 80%;
+ background: linear-gradient(158.63deg, #C04627 -45.02%, #650304 70.38%);
+
+    border-radius: 26px;
+    overflow: visible;
+color : white;
+}
+.track2{
+  margin-top: 20%;
+  height : 80%;
+ background: linear-gradient(158.63deg, #C04627 -45.02%, #650304 70.38%);
+
+    border-radius: 26px;
+    overflow: visible;
+color : white;
+
+}.track3{
+  margin-top: 20%;
+  height : 80%;
+ background: linear-gradient(158.63deg, #C04627 -45.02%, #650304 70.38%);
+
+    border-radius: 26px;
+    overflow: visible;
+color : white;
+
+}
+.firsti{
+  /*background-color: azure;*/
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.track1d{
+  margin-top: 50px;
+  text-align: left;
+  background: #650304;
+
+  font-family: "anta";
+  margin-right: 600px ;
+  width : 200px;
+  height:60px;
+ padding-top: 16px;
+  border-bottom-right-radius: 18px;
+  border-top-right-radius: 18px;
+  
+ /* border-radius: 18px ;*/
+}
+.track1n{
+  padding-left: 15px;
+  font-size: 36px ;
+}
+.text1{
+ 
+  margin-top: 30px;
+  font-family: "anta";
+}
+.design{
+  font-size: 48px;
+}
+.designp{
+  font-size: 24px;
+}
+
+
+.secondi{
+  /*background-color: azure;*/
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.track2d{
+  margin-top: 50px;
+  text-align: left;
+  background: #650304;
+
+  font-family: "anta";
+  margin-right: 600px ;
+  width : 200px;
+  height:60px;
+ padding-top: 16px;
+  border-bottom-right-radius: 18px;
+  border-top-right-radius: 18px;
+  
+ /* border-radius: 18px ;*/
+}
+.track2n{
+  padding-left: 15px;
+  font-size: 36px ;
+}
+.text2{
+ 
+  margin-top: 30px;
+  font-family: "anta";
+}
+.frontend{
+  font-size: 48px;
+}
+.frontendp{
+  font-size: 24px;
+}
+
+
+.thirdi{
+  /*background-color: azure;*/
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.track3d{
+  margin-top: 50px;
+  text-align: left;
+  background: #650304;
+
+  font-family: "anta";
+  margin-right: 600px ;
+  width : 200px;
+  height:60px;
+ padding-top: 16px;
+  border-bottom-right-radius: 18px;
+  border-top-right-radius: 18px;
+  
+ /* border-radius: 18px ;*/
+}
+.track3n{
+  padding-left: 15px;
+  font-size: 36px ;
+}
+.text3{
+ 
+  margin-top: 30px;
+  font-family: "anta";
+}
+.backend{
+  font-size: 48px;
+}
+.backendp{
+  font-size: 24px;
+}
