@@ -1,316 +1,340 @@
-body{
+body {
   background-color: #4c0507;
-/*background: linear-gradient(260.75deg, rgba(76, 5, 7, 0.2) 29.13%, rgba(148, 42, 41, 0.2) 107.19%);*/
-
+  width:1675px;
+  height:6000px;
+  /*background: linear-gradient(260.75deg, rgba(76, 5, 7, 0.2) 29.13%, rgba(148, 42, 41, 0.2) 107.19%);*/
 }
-.body{
+.body {
   /*background: linear-gradient(260.75deg, rgba(76, 5, 7, 0.2) 29.13%, rgba(148, 42, 41, 0.2) 107.19%);*/
 
-  content: fill ;
+  content: fill;
+}
+.nav{
+  display: grid;
+  grid-template-columns: 15% 73% 12% ;
+  grid-template-areas: "cse navnav img404 ";
+border-bottom-right-radius:20px ;
+border-bottom-left-radius: 20px;
+background-color: #64090c;
+height : 80px;
+padding: 0;
+margin-top: 10%;
+}
+.navnav{
+  /*background-color: antiquewhite;*/
+text-align: center;
+}
+.cse {
+  margin-right : 100px
 }
 
-.navbar ul{
-  list-style-type: none ;
- background-color: #4c0507;
-  padding: 0;
+.navbar ul {
+  list-style-type: none;
+background-color: #64090c;
+  padding: 0%;
   overflow: hidden;
-  width : 50%;
-  margin-top : 0;
-  margin-bottom :0;
-  margin-right: 25% ;
-  margin-left : 25%;
-   
+  width: 60%;
+  margin-top: 7px;
+  margin-bottom: 0;
+  margin-right: 50%;
+  margin-left: 19%;
+  display: flex;
+  gap : 50px;
 }
 .navbar a {
   color: white;
-  font-family : "Anta" ;
+  font-family: "Anta";
   text-decoration: none;
   padding: 15px;
   display: block;
   text-align: center;
-  font-size: 30px ;
+  font-size: 30px;
 }
 .navbar a:hover {
-background-color: #420507;
+  background-color: #420507;
 }
-.navbar li{
-  float:left;
-
+.navbar li {
+  float: left;
+ 
 }
-.nav{
-/*background-color: azure;*/
+.nav {
+  /*background-color: azure;*/
 
-width :  100%  ;
-margin-top: 0%;
-
+  width: 100%;
+  margin-top: 0%;
 }
-.lis{
+.lis {
   display: flex;
   align-items: center;
   text-align: center;
   justify-items: center;
- margin-left: 15%;
- margin-right: 30%;
- width : 1150px
-  
+  margin-left: 15%;
+  margin-right: 30%;
+  width: 1150px;
 }
-
-
 
 .img {
   background-color: black;
   margin-left: 85%;
   margin-top: 0;
 }
-.first{
-
+.first {
   display: flex;
   margin-top: 30px;
-
 }
-.title{
+
+.title {
   font-size: 64px;
   font-family: "Anta";
 }
-.intro{
-  font-size : 36px ;
+.intro {
+  font-size: 36px;
+
   font-family: "Anta";
-   
 }
-.hp{
-  display : flex;
+.hp {
+  display: flex;
+
   margin-left: 0;
-
 }
-.head{
+
+.head {
   margin-top: 100px;
-  text-align : center;
-    color: white;
-    
+  text-align: center;
 
+  color: white;
 }
-.intro{
+
+.intro {
   margin-top: 150px;
 }
 
-.register{
-  width :  294px;
-  height: 79px ;
+.register {
+  width: 294px;
+
+  height: 79px;
   font-family: "anta";
-  font-size: 36px ;
-  background-color: #c04627 ;
-  border:transparent ;
-  border-radius: 10px ;
-  color:white;
-  margin-left : 700px ;
+  font-size: 36px;
+  background-color: #c04627;
+  border: transparent;
+  border-radius: 10px;
+  color: white;
+
+  margin-left: 700px;
   margin-top: 100px;
 }
-.second{
+
+.second {
   height: 686px;
-  display : grid;
+
+  display: grid;
   grid-template-columns: 65% 35%;
 
   grid-template-areas: "about arrow";
 }
 .arrow {
-height : 686px;
-width: 593px;
+  height: 686px;
 
+  width: 593px;
 }
-.about{
+
+.about {
   padding-top: 40px;
-  height : 686px;
+
+  height: 686px;
   font-family: "anta";
   text-align: center;
   box-sizing: border-box;
-  color: white;
 
+  color: white;
 }
-.about-1{
- 
+
+.about-1 {
   font-size: 64px;
 }
 
-.about-2{
+.about-2 {
   padding-top: 60px;
-  font-size: 40px ;
-  text-align-last: left;
 
+  font-size: 40px;
+
+  text-align-last: left;
 }
-.third{
+
+.third {
   padding-top: 70px;
-  height : 250px;
+
+  height: 250px;
   font-family: "anta";
   text-align: center;
   box-sizing: border-box;
-  color:white;
 
-
+  color: white;
 }
-.theme{
+
+.theme {
   font-size: 64px;
   margin-bottom: 0;
 }
-.slogan{
-margin-top: 0;
+.slogan {
+  margin-top: 0;
   padding-left: 600px;
-  font-size: 32px ;
+
+  font-size: 32px;
   font-style: normal;
 }
-.fourth{
+
+.fourth {
   margin-right: 5%;
-    margin-left: 5%;
+
+  margin-left: 5%;
   height: 1005px;
   background-image: url(seekb.png);
   background-repeat: no-repeat;
   background-position: center;
-  display : grid;
-  grid-template-columns:  30% 30% 30% ;
-  column-gap: 5.8% ;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+
+  column-gap: 5.8%;
+
   grid-template-areas: " track1 track2 track3";
- 
 }
 
-.track1{
+.track1 {
   margin-top: 20%;
-  height : 80%;
- background: linear-gradient(158.63deg, #C04627 -45.02%, #650304 70.38%);
+  height: 80%;
 
-    border-radius: 26px;
-    overflow: visible;
-color : white;
+  background: linear-gradient(158.63deg, #c04627 -45.02%, #650304 70.38%);
+
+  border-radius: 26px;
+  overflow: visible;
+  color: white;
 }
-.track2{
+.track2 {
   margin-top: 20%;
-  height : 80%;
- background: linear-gradient(158.63deg, #C04627 -45.02%, #650304 70.38%);
+  height: 80%;
+  background: linear-gradient(158.63deg, #c04627 -45.02%, #650304 70.38%);
 
-    border-radius: 26px;
-    overflow: visible;
-color : white;
-
-}.track3{
-  margin-top: 20%;
-  height : 80%;
- background: linear-gradient(158.63deg, #C04627 -45.02%, #650304 70.38%);
-
-    border-radius: 26px;
-    overflow: visible;
-color : white;
-
+  border-radius: 26px;
+  overflow: visible;
+  color: white;
 }
-.firsti{
+.track3 {
+  margin-top: 20%;
+  height: 80%;
+  background: linear-gradient(158.63deg, #c04627 -45.02%, #650304 70.38%);
+
+  border-radius: 26px;
+  overflow: visible;
+  color: white;
+}
+.firsti {
   /*background-color: azure;*/
   padding-top: 50px;
   display: flex;
   justify-content: center;
   justify-items: center;
 }
-.track1d{
+.track1d {
   margin-top: 50px;
   text-align: left;
   background: #650304;
 
   font-family: "anta";
-  margin-right: 600px ;
-  width : 200px;
-  height:60px;
- padding-top: 16px;
+  margin-right: 600px;
+  width: 200px;
+  height: 60px;
+  padding-top: 16px;
   border-bottom-right-radius: 18px;
   border-top-right-radius: 18px;
-  
- /* border-radius: 18px ;*/
+
+  /* border-radius: 18px ;*/
 }
-.track1n{
+.track1n {
   padding-left: 15px;
-  font-size: 36px ;
+  font-size: 36px;
 }
-.text1{
- 
+.text1 {
   margin-top: 30px;
   font-family: "anta";
 }
-.design{
+.design {
   font-size: 48px;
 }
-.designp{
+.designp {
   font-size: 24px;
 }
 
-
-.secondi{
+.secondi {
   /*background-color: azure;*/
   padding-top: 50px;
   display: flex;
   justify-content: center;
   justify-items: center;
 }
-.track2d{
+.track2d {
   margin-top: 50px;
   text-align: left;
   background: #650304;
 
   font-family: "anta";
-  margin-right: 600px ;
-  width : 200px;
-  height:60px;
- padding-top: 16px;
+  margin-right: 600px;
+  width: 200px;
+  height: 60px;
+  padding-top: 16px;
   border-bottom-right-radius: 18px;
   border-top-right-radius: 18px;
-  
- /* border-radius: 18px ;*/
+
+  /* border-radius: 18px ;*/
 }
-.track2n{
+.track2n {
   padding-left: 15px;
-  font-size: 36px ;
+  font-size: 36px;
 }
-.text2{
- 
+.text2 {
   margin-top: 30px;
   font-family: "anta";
 }
-.frontend{
+.frontend {
   font-size: 48px;
 }
-.frontendp{
+.frontendp {
   font-size: 24px;
 }
 
-
-.thirdi{
+.thirdi {
   /*background-color: azure;*/
   padding-top: 50px;
   display: flex;
   justify-content: center;
   justify-items: center;
 }
-.track3d{
+.track3d {
   margin-top: 50px;
   text-align: left;
   background: #650304;
 
   font-family: "anta";
-  margin-right: 600px ;
-  width : 200px;
-  height:60px;
- padding-top: 16px;
+  margin-right: 600px;
+  width: 200px;
+  height: 60px;
+  padding-top: 16px;
   border-bottom-right-radius: 18px;
   border-top-right-radius: 18px;
-  
- /* border-radius: 18px ;*/
+
+  /* border-radius: 18px ;*/
 }
-.track3n{
+.track3n {
   padding-left: 15px;
-  font-size: 36px ;
+  font-size: 36px;
 }
-.text3{
- 
+.text3 {
   margin-top: 30px;
   font-family: "anta";
 }
-.backend{
+.backend {
   font-size: 48px;
 }
-.backendp{
+.backendp {
   font-size: 24px;
 }
