@@ -10,9 +10,9 @@ body {
   content: fill;
 }
 .nav{
-  display: grid;
-  grid-template-columns: 15% 73% 12% ;
-  grid-template-areas: "cse navnav img404 ";
+display: grid;
+grid-template-columns: 15% 73% 12% ;
+grid-template-areas: "cse navnav img404 ";
 border-bottom-right-radius:20px ;
 border-bottom-left-radius: 20px;
 background-color: #64090c;
