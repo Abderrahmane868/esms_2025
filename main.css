@@ -1,14 +1,11 @@
 body {
-  background-color: #4c0507;
   width:1675px;
   height:6000px;
+  background-color: #420507;
+ /* background: linear-gradient(260.75deg, rgba(76, 5, 7, 0.2) 29.13%, rgba(148, 42, 41, 0.2) 107.19%);*/
   /*background: linear-gradient(260.75deg, rgba(76, 5, 7, 0.2) 29.13%, rgba(148, 42, 41, 0.2) 107.19%);*/
 }
-.body {
-  /*background: linear-gradient(260.75deg, rgba(76, 5, 7, 0.2) 29.13%, rgba(148, 42, 41, 0.2) 107.19%);*/
 
-  content: fill;
-}
 .nav{
 display: grid;
 grid-template-columns: 15% 73% 12% ;
