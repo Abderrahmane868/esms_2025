@@ -338,3 +338,72 @@ background-color: #64090c;
 .backendp {
   font-size: 24px;
 }
+
+/* TIMELINE SECTION */
+.timeline-section {
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.timeline-title {
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.timeline-sub {
+  font-size: 18px;
+  margin-bottom: 60px;
+  color: #ddd;
+}
+
+/* Two-column zigzag layout */
+.timeline-grid {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 60px;
+}
+
+/* Left side → Box aligned to left */
+.event.left {
+  text-align: left;
+}
+
+/* Right side → Box aligned to right */
+.event.right {
+  text-align: right;
+}
+
+/* The red rounded boxes */
+
+.timeline-section {
+  position: relative;
+  text-align: center;
+  background-image: url('bgtimeline.png'); 
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white; 
+}
+
+.timeline-box {
+  background: #750b0b;
+  display: inline-block;
+  width: 350;
+  padding: 30px 200px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: "organizer" ,sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+}
+
+/* Dates */
+.date {
+  font-size: 16px;
+  color: #ddd;
+}
