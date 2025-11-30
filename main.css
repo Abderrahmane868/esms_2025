@@ -405,3 +405,79 @@ cursor:pointer;
   font-size: 16px;
   color: #ddd;
 }
+
+
+/* ===== PRIZES SECTION ===== */
+.awards-section {
+background-image: url(bgprizes.png);
+background-size: contain; 
+background-position: right; 
+background-repeat: no-repeat; 
+text-align: center;
+color: white;
+font-family: "anta";
+}
+
+
+.awards-title {
+font-size: 64px;
+margin-bottom: 70px;
+}
+
+
+.awards-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+width: 90%;
+margin: auto;
+column-gap: 40px;
+}
+
+
+/* The cards */
+.award-card {
+padding: 10px;
+border-radius: 26px;
+height: 450px;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+}
+
+
+/* Raise the center card */
+.award-card.first {
+margin-top: -60px;
+}
+
+
+/* Lower side cards a bit */
+.award-card.second,
+.award-card.third {
+margin-top: 30px;
+}
+
+
+.award-rank {
+font-size: 72px;
+font-weight: bold;
+color: gold;
+margin-bottom: 15px;
+}
+
+
+.award-title {
+font-size: 36px;
+background: #64090c;
+padding: 10px 30px;
+border-radius: 12px;
+margin-bottom: 25px;
+}
+
+
+.award-card p {
+font-size: 22px;
+margin: 8px 0;
+}
