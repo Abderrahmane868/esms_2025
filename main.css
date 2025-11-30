@@ -22,6 +22,7 @@ margin-top: 10%;
 text-align: center;
 }
 .cse {
+  margin-top: 8px;
   margin-right : 100px
 }
 
@@ -108,7 +109,7 @@ background-color: #64090c;
 
 .register {
   width: 294px;
-
+cursor:pointer;
   height: 79px;
   font-family: "anta";
   font-size: 36px;
