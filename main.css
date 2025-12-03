@@ -161,7 +161,7 @@ body {
 
   margin-left: 5%;
   height: 1005px;
-  background-image: url(seekb.png);
+  background-image: url(images/seekb.png);
   background-repeat: no-repeat;
   background-position: center;
   display: grid;
@@ -323,7 +323,7 @@ body {
   padding-bottom: 2px;
   font-family: "anta";
   text-align: center;
-  background-image: url("bgtimeline.png");
+  background-image: url("images/bgtimeline.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -397,7 +397,7 @@ body {
 
 /* ===== PRIZES SECTION ===== */
 .awards-section {
-  background-image: url(bgprizes.png);
+  background-image: url(images/bgprizes.png);
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -508,7 +508,7 @@ body {
 .contact-us {
   height: 1000px;
   font-family: "anta";
-  background-image: url(mockingjay.png);
+  background-image: url(images/mockingjay.png);
   background-repeat: no-repeat;
   background-position: right;
   background-position-x: 800px;
