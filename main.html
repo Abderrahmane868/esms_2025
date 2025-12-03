@@ -13,43 +13,51 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <div class="body">
-          <nav class="navbar">
-            <div class="nav">
-               <div class="cse"><img src="cse.png"></div>
-                <div class="navnav">
-                        <ul>
-                            <li class="tt"><a href="">Home</a></li>
-                            <li class="tt"><a href="">About</a></li>
-                            <li class="tt"><a href="">Timeline</a></li>
-                            <li class="tt"><a href="">Contact us</a></li>
-                        </ul>
-                 </div>
-                <div class="img404"><img src="404.png"></div>
-            </div>
-          </nav>
-        
-      <div class="first">
-        <img src="woman-2.png" />
-        <div class="head">
-          <h class="title">Distric 404: Code To Survive</h>
-
-          <p class="intro">
-            The arena opens once more. In District 404, survival is no longer
-            about strength or speed it’s about innovation, strategy, and the
-            courage to build when everything around you is falling apart
-          </p>
-          <button class="register">Register Now</button>
+    <!---navigation bar--->
+    <nav class="navbar">
+      <div class="nav">
+        <!---cse logo--->
+        <div class="cse"><img src="images/cse.png" /></div>
+        <div class="navigation">
+          <!---items--->
+          <ul>
+            <li class="elements"><a href="">Home</a></li>
+            <li class="elements"><a href="#about">About</a></li>
+            <li class="elements"><a href="#timeline">Timeline</a></li>
+            <li class="elements"><a href="#contact-us">Contact us</a></li>
+          </ul>
         </div>
+        <!---event logo--->
+        <div class="img404"><img src="images/404.png" /></div>
       </div>
+    </nav>
+    <!---intro --->
+    <div class="first">
+      <!---first image--->
+      <img src="images/woman-2.png" />
+      <div class="head">
+        <!---name of the event with a quick intro--->
+        <h class="title">District 404: Code To Survive</h>
 
-      <div class="second">
-        <div class="arrow" style="grid-area: arrow">
-          <img src="arrow.png" />
-        </div>
-
-        <div class="about" style="grid-area: about">
-          <h class="about-1"> ABOUT DISTRUCT 404 V1.0 </h>
+        <p class="introduction">
+          The arena opens once more. In District 404, survival is no longer
+          about strength or speed it’s about innovation, strategy, and the
+          courage to build when everything around you is falling apart
+        </p>
+        <!---registration button--->
+        <button class="register">Register Now</button>
+      </div>
+    </div>
+    <!---description of the event--->
+    <div class="second">
+      <!---second image--->
+      <div class="arrow">
+        <img src="images/arrow.png" />
+      </div>
+      <!---about sidtrict 404--->
+      <div class="about" style="grid-area: about" id="about">
+        <div id="about-1"><h class="about-1"> ABOUT DISTRICT 404 V1.0 </h></div>
+        <div id="about-2">
           <p class="about-2">
             Welcome to District 404 a survival-themed hackathon Where innovation
             becomes your only weapon. Inspired by the world of the Hunger Games,
@@ -61,131 +69,223 @@
           </p>
         </div>
       </div>
-      <div class="third">
-        <h class="theme">TRACKS AND THEMES </h>
-        <p class="slogan">what to learn?</p>
-      </div>
-      <div class="fourth">
-        <div class="track1">
-          <div class="firsti"><img src="first.png" /></div>
-          <div class="track1d"><h class="track1n"> TRACK 1</h></div>
-          <div class="text1">
-            <h class="design">DESIGN </h>
-            <p class="designp">
-              This track is dedicated entirely to visual design and user
-              experience. No coding required. Participants focus on creating
-              intuitive, elegant, and impactful interfaces that solve the
-              sponsor’s problem. You’ll build prototypes, design systems, and
-              user flows that transform complexity into clarity.
-            </p>
-          </div>
-        </div>
-        <div class="track2">
-          <div class="secondi"><img src="second.png" /></div>
-          <div class="track2d"><h class="track2n"> TRACK 2</h></div>
-          <div class="text2">
-            <h class="frontend">FRONT-END </h>
-            <p class="frontendp">
-              This track challenges participants to transform design into
-              functional, responsive interfaces using modern front-end
-              technologies. Your mission is to code the user-facing part of the
-              solution: fast, clean, and accessible.
-            </p>
-          </div>
-        </div>
-        <div class="track3">
-          <div class="thirdi"><img src="third.png" /></div>
-          <div class="track3d"><h class="track3n"> TRACK 3</h></div>
-          <div class="text3">
-            <h class="backend">BACK-END </h>
-            <p class="backendp">
-              This track focuses on building the server-side logic, APIs, data
-              handling, and system architecture. Participants create the
-              backbone that makes the application functional, secure, and
-              reliable.
-            </p>
-          </div>
+    </div>
+    <!---tracks and themes of the event--->
+    <div class="third">
+      <h class="theme">TRACKS AND THEMES </h>
+      <p class="slogan">what to learn?</p>
+    </div>
+    <!---design track--->
+    <div class="fourth">
+      <div class="track1">
+        <div class="firstimage"><img src="images/first.png" /></div>
+        <div class="track1div"><h class="track1name"> TRACK 1</h></div>
+        <div class="text1">
+          <h class="design">DESIGN </h>
+          <p class="designparagraph">
+            This track is dedicated entirely to visual design and user
+            experience. No coding required. Participants focus on creating
+            intuitive, elegant, and impactful interfaces that solve the
+            sponsor’s problem. You’ll build prototypes, design systems, and user
+            flows that transform complexity into clarity.
+          </p>
         </div>
       </div>
+      <!---frontend track--->
+      <div class="track2">
+        <div class="secondimage"><img src="images/second.png" /></div>
+        <div class="track2div"><h class="track2name"> TRACK 2</h></div>
+        <div class="text2">
+          <h class="frontend">FRONT-END </h>
+          <p class="frontendparagraph">
+            This track challenges participants to transform design into
+            functional, responsive interfaces using modern front-end
+            technologies. Your mission is to code the user-facing part of the
+            solution: fast, clean, and accessible.
+          </p>
+        </div>
+      </div>
+      <!---backend track--->
+      <div class="track3">
+        <div class="thirdimage"><img src="images/third.png" /></div>
+        <div class="track3div"><h class="track3name"> TRACK 3</h></div>
+        <div class="text3">
+          <h class="backend">BACK-END </h>
+          <p class="backendparagraph">
+            This track focuses on building the server-side logic, APIs, data
+            handling, and system architecture. Participants create the backbone
+            that makes the application functional, secure, and reliable.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!---timeline section--->
+    <div class="timeline-section" id="timeline">
+      <div class="title">
+        <h1 class="timeline-title">TIMELINE</h1>
+        <h2 class="timeline-sub">plan your day</h2>
+      </div>
+      <!---detailed timeline--->
+      <div class="timeline-grid">
+        <div class="event left">
+          <div class="timeline-box">Registration OPEN</div>
+          <div class="dateleft">29 NOV</div>
+        </div>
+
+        <div class="event right">
+          <div class="timeline-box">Final Submission & Presentations</div>
+          <div class="dateright">5 DEC (11:00–12:00)</div>
+        </div>
+
+        <div class="event left">
+          <div class="timeline-box">Opening & Workshops</div>
+          <div class="dateleft">1 DEC – 3 DEC</div>
+        </div>
+
+        <div class="event right">
+          <div class="timeline-box">Final Submission & Presentations</div>
+          <div class="dateright">5 DEC (13:00–14:30)</div>
+        </div>
+
+        <div class="event left">
+          <div class="timeline-box">Hacking in the Arena</div>
+          <div class="dateleft">3 DEC – 5 DEC</div>
+        </div>
+
+        <div class="event right">
+          <div class="timeline-box">Award Ceremony & Closing</div>
+          <div class="dateright">5 DEC (15:00–17:00)</div>
+        </div>
+      </div>
+    </div>
+    <!---awards section --->
+    <section class="awards-section">
+      <div class="awards-titre">
+        <h1 class="awards-title">PRIZES & AWARDS</h1>
+      </div>
+
+      <div class="awards-grid">
+        <!-- 2nd Place -->
+        <div class="award-card second">
+          <img src="images/ndprize.png" class="award-img" />
+          <h2 class="award-title">2nd Place</h2>
+          <p>Tech gadgets</p>
+          <p>Digital badge: “District 404 Survivor”</p>
+          <p>Certificate of participation</p>
+        </div>
+
+        <!-- 1st Place  -->
+        <div class="award-card first">
+          <img src="images/stprize.png" class="award-img" />
+
+          <h2 class="award-title">1st Place</h2>
+          <p>Trophy + cash prize</p>
+          <p>Digital badge: “District 404 Survivor”</p>
+          <p>Certificate of participation</p>
+        </div>
+
+        <!-- 3rd Place -->
+        <div class="award-card third">
+          <img src="images/rdprize.svg" class="award-img" />
+          <h2 class="award-title">3rd Place</h2>
+          <p>Gift bundles</p>
+          <p>Digital badge: “District 404 Survivor”</p>
+          <p>Certificate of participation</p>
+        </div>
+      </div>
+    </section>
+    <!---sponsor section--->
+    <div class="sponsor">
+      <div class="heading">
+        <h class="sponsorname">OUR SPONSOR</h>
+        <p class="thanks">big thanks to</p>
+      </div>
+      <!---different sponsors--->
+      <div class="images">
+        <div class="yalidine"><img src="images/Yalidine.png" /></div>
+        <div class="djezzy"><img src="images/Djezzy.png" /></div>
+        <div class="yassir"><img src="images/Yassir.png" /></div>
+      </div>
+    </div>
+
+    <!---contact us section--->
+    <div class="contact-us" id="contact-us">
+      <div class="contact-h"><h class="contact-us-title">CONTACT US</h></div>
+      <div class="cse2"><img src="images/cse2.png" /></div>
+      <!---description--->
+      <div class="description">
+        <p class="empower">
+          Empowering students to innovate, build, and create real-world tech
+          solutions. Workshops, hackathons, and a community where ideas come to
+          life.
+        </p>
+      </div>
+      <!---esi localisation--->
+      <div class="localisation"><h id="localisation">LOCALISATION</h></div>
+      <div class="esi">
+        <p id="esi">
+          ecole natnationale supérieure de l’informatique (ESI ex.INI ), ALGER,
+          Oued Smar 16309
+        </p>
+      </div>
+      <!---website and phone number--->
+      <div class="us"><h id="us">CONTACT US</h></div>
+      <div id="number">
+        <div class="number"><h> +213 78 23 51 931</h></div>
+        <div class="link"><h>cse@esi.dz</h></div>
+      </div>
+      <!---social media--->
+      <div class="socialmedia">
+        <h class="socialmediatitle">SOCIAL MEDIA</h>
+        <!---logos--->
+        <div id="icons-top">
+          <a
+            class="facebook"
+            href="https://web.facebook.com/club.scientifique.esi/"
+            target="blank"
+          >
+            <img src="images/facebook.png"
+          /></a>
+          <a
+            class="instagram"
+            target="blank"
+            href="https://www.instagram.com/cse.club/"
+          >
+            <img src="images/instagram.png"
+          /></a>
+          <a
+            class="youtube"
+            target="blank"
+            href="https://www.youtube.com/channel/UCHgeF6ELJW0Pt1vYoAomCig"
+          >
+            <img src="images/youtube.png"
+          /></a>
+        </div>
+        <div id="icons-bottom">
+          <a
+            class="linkedin"
+            target="blank"
+            href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFhSVIg1J1yiQAAAZrkkF6QZGWDkrdJSCKADDuco-0YH8Y2LeKe4mzkYCGfDj3_TFdUwUUfnQh_Zp1xfG0wYDemUCjcmEWZuPZBgXhwJ0jzURIW0C565XrjdRptwu6cNXzxThA=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fcse-club%2F"
+          >
+            <img src="images/linkedin.png"
+          /></a>
+          <a
+            class="tiktok"
+            target="blank"
+            href="https://www.tiktok.com/@cse.club"
+          >
+            <img src="images/tiktok.png"
+          /></a>
+          <a
+            class="github"
+            target="blank"
+            href="https://github.com/ScientificClubofESI"
+          >
+            <img src="images/github.png"
+          /></a>
+        </div>
+      </div>
+      <p class="conclusion">Where innovation becomes your only weapon.</p>
     </div>
   </body>
 </html>
-
-
-<div class="title"><h1 class="timeline-title">TIMELINE</h1>
-  <h2 class="timeline-sub">plan your day</h2></div>
-  <div class="timeline-section">
-  
-
-  <div class="timeline-grid">
-    
-    <div class="event left">
-      <div class="timeline-box">Registration OPEN</div>
-      <div class="date">29 NOV</div>
-    </div>
-
-    <div class="event right">
-      <div class="timeline-box">Final Submission & Presentations</div>
-      <div class="date">5 DEC (11:00–12:00)</div>
-    </div>
-
-    <div class="event left">
-      <div class="timeline-box">Opening & Workshops</div>
-      <div class="date">1 DEC – 3 DEC</div>
-    </div>
-
-    <div class="event right">
-      <div class="timeline-box">Final Submission & Presentations</div>
-      <div class="date">5 DEC (13:00–14:30)</div>
-    </div>
-
-    <div class="event left">
-      <div class="timeline-box">Hacking in the Arena</div>
-      <div class="date">3 DEC – 5 DEC</div>
-    </div>
-
-    <div class="event right">
-      <div class="timeline-box">Award Ceremony & Closing</div>
-      <div class="date">5 DEC (15:00–17:00)</div>
-    </div>
-
-  </div>
-</div>
-
-
-<section class="awards-section">
-<h1 class="awards-title">PRIZES & AWARDS</h1>
-
-
-<div class="awards-grid">
-<!-- 2nd Place -->
-<div class="award-card second">
-<img src="ndprize.png" class="award-img">
-<h2 class="award-title">2nd Place</h2>
-<p>Tech gadgets</p>
-<p>Digital badge: “District 404 Survivor”</p>
-<p>Certificate of participation</p>
-</div>
-
-
-<!-- 1st Place  -->
-<div class="award-card first">
-<img src="stprize.png" class="award-img">
-
-<h2 class="award-title">1st Place</h2>
-<p>Trophy + cash prize</p>
-<p>Digital badge: “District 404 Survivor”</p>
-<p>Certificate of participation</p>
-</div>
-
-
-<!-- 3rd Place -->
-<div class="award-card third">
-<img src="rdprize.svg" class="award-img">
-<h2 class="award-title">3rd Place</h2>
-<p>Gift bundles</p>
-<p>Digital badge: “District 404 Survivor”</p>
-<p>Certificate of participation</p>
-</div>
-</div>
-</section>
