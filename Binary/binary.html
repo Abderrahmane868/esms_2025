@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel = "stylesheet" href="binary.css">
+</head>
+<body>
+  <input id="display" ><br>
+  <label for="base-from">
+    <select id="base-from">
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+
+
+    </select>
+  </label><br>
+  <label for="base-to">
+    <select id="base-to">
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+
+
+    </select>
+  </label><br>
+  <button id="accept" onclick="  test() ; transform() ; " style =" background-color: aqua;">Convert</button>
+  <button id="reset" onclick=" erase() ;">Reset</button>
+  <button id ="swap" onclick=" swap()">Swap</button><br>
+    <input id="result" readonly >
+
+  <script src="binary.js"></script>
+</body>
+</html>
